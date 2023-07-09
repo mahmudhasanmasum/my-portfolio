@@ -19,6 +19,21 @@ body{
 
 }
 
+.section-titel{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.about-discription{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+
+}
+
 /* nav releted style */
 nav{
     display: flex;
@@ -52,18 +67,49 @@ nav a{
 /* header related style */
 .header{
     background-color: #fff8f3;
+    background-image: url('/images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 /* banner related style */
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+
+.banner-conten{
+    max-width: 500px;
 }
 .banner .profile{
     width: 500px;
 }
+.hello{
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+    
+}
+.title-name{
+    font-size: 85px;
+    /* font-style: normal; */
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
 
+}
+/* hero aria crated */
+
+/* about sectino star */
+
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 0;
+}
 
 
 
