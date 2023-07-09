@@ -111,5 +111,19 @@ nav a{
     margin: 130px 0;
 }
 
+/* main arya style  */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about-info-bag{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+
+}
+
 
 
