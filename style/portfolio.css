@@ -108,27 +108,30 @@ nav a{
     border-radius: 10px;
     background: #FFF8F3;
     margin: 130px 0;
+    
 }
 
 /* main arya style  */
 main{
     max-width: 1140px;
     margin: 0 auto;
+    
 }
 main section{
     margin-top: 130px;
+    
 }
 .about-info-bag{
     display: flex;
     justify-content: space-around;
+    
+    
 }
 .about-info{
     text-align: center;
 
 }
-/* .do-title{
-    text-align: center;
-} */
+/*  */
 #what-i-do{
     padding: 30px 150px;
 }
@@ -167,3 +170,33 @@ gap: 50px;
     margin-bottom: 30px;
 }
 
+.section-title{
+    text-align: center;
+}
+
+
+/* footer style */
+footer{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+.footer-column{
+    width: 50%;
+    
+}
+
+.contact input[type="text"], .contact input[type="email"],textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 10px;
+    background:  #FFF;
+    border: 0;
+    width: 100%;
+}
